@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Panda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Select:</legend>
+                <div id="radio">
+                    <input type="radio" id="btnColor" name="color" checked="checked">
+                    <label for="btnColor">color</label>
+                    <input type="radio" id="btnBg" name="color">
+                    <label for="btnBg">backgroundColor</label>
+                </div>
+            </fieldset>
+        </form>
+        <section class="colorSelect">
+            <section class="sliders">
+                <div class="slider red" id="sliderRed"></div>
+                <div class="slider green" id="sliderGreen"></div>
+                <div class="slider blue" id="sliderBlue"></div>
+            </section>
+            <section class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</section>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
